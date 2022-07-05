@@ -40,8 +40,15 @@ Check memory leak via valgrind. Only work for Linux.
 
 ``"suppressed"``：Maybe the system can process the potential leak.
 
+# Note:
+
+1. Memcheck cannot detect every memory error your program has.
+2. It can't detect out-of-range reads or writes to arrays that are allocated statically or on the stack.
+3. It should detect many errors that could crash your program (eg. cause a segmentation fault).
+4. FAQ: https://valgrind.org/docs/manual/faq.html
 
 # Refer:
 
+    https://valgrind.org/docs/manual/quick-start.html
     https://aleksander.es/data/valgrind-memcheck.pdf
     https://cloud.tencent.com/developer/article/1680519
