@@ -1,6 +1,8 @@
 # README
 
-This repo provides 2 method to detect memory leak for CPP/C application.
+This repo provides kinds of methods to detect memory leak for CPP/C application. <br>
+``Linux:`` Valgrind is preferred  <br>
+``Windows:`` Build RelWithDebug, and take snapshot to check is perferred. <br>
 
 #### Windows CRT
 
