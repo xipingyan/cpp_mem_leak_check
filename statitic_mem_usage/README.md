@@ -1,5 +1,5 @@
 # Readme
-Statistic memory consumtion. Only work for Linux.
+Statistic memory consumption. Only work for Linux.
 
 # How to run
 
